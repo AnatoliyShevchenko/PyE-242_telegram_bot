@@ -4,7 +4,7 @@ import asyncio
 # Local
 from src.settings.base import bot, dp, logger
 from src.bot.routers import ROUTERS
-from src.bot.utils.rate_exchange import get_exchange_rate
+# from src.bot.utils.rate_exchange import get_exchange_rate
 
 
 async def main():
