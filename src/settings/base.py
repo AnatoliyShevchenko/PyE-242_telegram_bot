@@ -12,6 +12,7 @@ from dotenv import dotenv_values
 config: dict = dotenv_values()
 BOT_TOKEN: str = config.get("BOT_TOKEN")
 API_URL: str = config.get("API_URL")
+WHEATHER_KEY: str = config.get("WHEATHER_KEY")
 bot: Bot = Bot(token=BOT_TOKEN)
 dp: Dispatcher = Dispatcher()
 VOLUME = "./volume/"

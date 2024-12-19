@@ -7,3 +7,9 @@ class ExchangeStates(StatesGroup):
     currency_request = State()
     exchange_currency = State()
     wait_sum = State()
+
+
+class WheatherStates(StatesGroup):
+    current_or_forecast = State()
+    request_for_city = State()
+    request_for_days = State()
